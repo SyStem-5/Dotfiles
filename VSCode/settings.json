@@ -1,0 +1,48 @@
+{
+    // General
+    "telemetry.telemetryLevel": "off",
+    "files.autoSave": "onWindowChange",
+    "window.menuBarVisibility": "visible",
+    "search.showLineNumbers": true,
+    // Editor
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": "on",
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.autoIndent": "advanced",
+    "editor.wordWrap": "off",
+    // Workbench
+    "workbench.list.smoothScrolling": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    // Terminal
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.gpuAcceleration": "on",
+    // Language: Python
+    "python.diagnostics.sourceMapsEnabled": true,
+    // "python.experiments.enabled": false,
+    "python.languageServer": "Pylance",
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.experiments.optInto": [
+        "pythonDiscoveryModuleWithoutWatcher"
+    ],
+    // Language: Rust
+    "rust-client.engine": "rust-analyzer",
+    // Language: C#
+    "omnisharp.useModernNet": true,
+    "csharp.semanticHighlighting.enabled": true,
+    // Extension: Vim
+    "vim.highlightedyank.enable": true,
+    "vim.smartRelativeLine": true,
+    "vim.statusBarColorControl": true,
+    "vim.visualstar": true,
+}
