@@ -1,10 +1,12 @@
 {
     // General
     "telemetry.telemetryLevel": "off",
-    "files.autoSave": "onWindowChange",
     "window.menuBarVisibility": "visible",
     "search.showLineNumbers": true,
+    "files.autoSave": "onWindowChange",
+    "files.insertFinalNewline": true,
     // Editor
+    "editor.formatOnSave": true,
     "editor.smoothScrolling": true,
     "editor.tabCompletion": "on",
     "editor.minimap.enabled": false,
@@ -15,6 +17,7 @@
     "editor.autoIndent": "advanced",
     "editor.wordWrap": "off",
     // Workbench
+    "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.colorTheme": "One Dark Pro",
     "workbench.colorCustomizations": {
