@@ -1,12 +1,30 @@
 #!/bin/bash
 
-sudo pacman -Sy neovim
+ABSOLUTE_PATH=$(realpath .)
 
-cp -r ./nvim ~/.config/
+echo "Neovim configuration setup"
+
+echo "Installing neovim and required tools..."
+sudo pacman -Sy --noconfirm neovim curl
+
+read -p "Do you want to use symbolic links? [y/N] " -n 1 -r
+echo    # Move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    ln -s --force $ABSOLUTE_PATH/nvim ~/.config/nvim
+else
+    cp -r $ABSOLUTE_PATH/nvim ~/.config/
+fi
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-
 echo "MAKE SURE TO RUN :PlugInstall inside of neovim on first launch."
+echo "Configuration complete"
+
+
+
+
+
+
 

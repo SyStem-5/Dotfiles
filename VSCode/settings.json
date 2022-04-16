@@ -16,6 +16,8 @@
     "editor.detectIndentation": false,
     "editor.autoIndent": "advanced",
     "editor.wordWrap": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
     // Workbench
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
@@ -43,9 +45,11 @@
     // Language: C#
     "omnisharp.useModernNet": true,
     "csharp.semanticHighlighting.enabled": true,
+    // Language: JavaScript
+    "javascript.updateImportsOnFileMove.enabled": "always",
     // Extension: Vim
     "vim.highlightedyank.enable": true,
     "vim.smartRelativeLine": true,
     "vim.statusBarColorControl": true,
-    "vim.visualstar": true,
+    "vim.visualstar": true
 }
