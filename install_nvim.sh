@@ -5,7 +5,7 @@ ABSOLUTE_PATH=$(realpath .)
 echo "Neovim configuration setup"
 
 echo "Installing neovim and required tools..."
-sudo pacman -Sy --noconfirm neovim curl
+sudo pacman -Sy --noconfirm neovim curl xclip
 
 read -p "Do you want to use symbolic links? [y/N] " -n 1 -r
 echo    # Move to a new line
