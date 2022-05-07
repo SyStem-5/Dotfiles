@@ -11,7 +11,7 @@ read -p "Do you want to use symbolic links? [y/N] " -n 1 -r
 echo    # Move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    ln -s --force $ABSOLUTE_PATH/xmonad ~/.config/.xmonad
+    ln -s --force $ABSOLUTE_PATH/xmonad ~/.xmonad
 else
     mkdir ~/.xmonad >> /dev/null 2>&1
     cp -r $ABSOLUTE_PATH/xmonad ~/.xmonad

@@ -1,7 +1,0 @@
-
-xmonad.hs:324:3: warning: [-Wtabs]
-    Tab character found here, and in 10 further locations.
-    Please use spaces instead.
-    |
-324 |             , manageHook = manageSpawn <+> myManageHook <+> manageHook myBaseConfig
-    |   ^^^^^^
