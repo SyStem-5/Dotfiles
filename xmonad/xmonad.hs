@@ -143,7 +143,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   , ((controlMask, xK_Escape), spawn $ "xfce4-taskmanager")
 
   -- SUPER + SHIFT KEYS
-  , ((modMask .|. shiftMask, xK_x), spawn $ "arcolinux-logout" )
+  , ((modMask .|. shiftMask, xK_x), spawn $ "archlinux-logout" )
   -- , ((modMask .|. shiftMask, xK_d ), spawn $ "dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'")
   , ((modMask , xK_F12 ), spawn $ "dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'")
   , ((modMask .|. shiftMask, xK_r ), spawn $ "xmonad --recompile && xmonad --restart")
