@@ -87,8 +87,8 @@ myManageHook = composeAll . concat $
     ]
     where
     -- doShiftAndGo = doF . liftM2 (.) W.greedyView W.shift
-    myCFloats = ["Arandr", "Arcolinux-calamares-tool.py", "Arcolinux-tweak-tool.py", "Arcolinux-welcome-app.py", "Galculator", "feh", "mpv", "Xfce4-terminal", "Arcologout.py"]
-    myTFloats = ["Downloads", "Save As..."]
+    myCFloats = ["Arandr", "Arcolinux-calamares-tool.py", "Arcolinux-tweak-tool.py", "Arcolinux-welcome-app.py", "Galculator", "feh", "mpv", "Xfce4-terminal"]
+    myTFloats = ["Downloads", "Save As...", "ArchLinux Logout"]
     myRFloats = []
     myIgnores = ["desktop_window"]
     -- my1Shifts = ["Chromium", "Vivaldi-stable", "Firefox"]
