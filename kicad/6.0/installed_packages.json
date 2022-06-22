@@ -1,0 +1,226 @@
+{
+    "packages": [
+        {
+            "current_version": "1.0.1",
+            "install_timestamp": 1655888038,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "4ms@4mscompany.com",
+                        "web": "https://4mscompany.com"
+                    },
+                    "name": "4ms Company"
+                },
+                "description": "Kicad symbol and footprint libraries, with a focus on components used in analog and DSP audio.",
+                "description_full": "Kicad symbol and footprint libraries for analog and digital (DSP) audio electronics.\n\nYou must add these libraries to your library tables, see GitHub link for instructions.\n\nThese libraries are used at 4ms Company in our audio devices. Most symbols include manufacturer name and part number, and sometimes multiple alternative numbers. Some parts have JLCPCB part numbers as well, which is used by our BOM and XYPOS scripts in order to streamline using their services (see our GitHub page for links to those scripts).\n\nEach symbol represents a unique part. For example, there is a separate symbol for each combination of resistor value, tolerance, and size. While this makes for a lot of symbols, Kicad's filter toolbar in the symbol chooser makes finding a part easy, and there is less chance for BOM errors.\n\nWhen possible, symbols look like the official KiCad symbols, so that it's easy to use official and 4ms symbols in the same schematic.",
+                "identifier": "com.github.4ms.4ms-kicad-lib",
+                "license": "Unlicense",
+                "maintainer": {
+                    "contact": {
+                        "email": "4ms@4mscompany.com",
+                        "web": "https://4mscompany.com"
+                    },
+                    "name": "4ms Company"
+                },
+                "name": "4ms Kicad Libraries",
+                "resources": {
+                    "homepage": "https://github.com/4ms/4ms-kicad-lib"
+                },
+                "tags": [
+                    "footprints",
+                    "symbols"
+                ],
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "09da3a06b3912daadc0530abc5722a9660b547ef24db3a802ddc2e262e4c2ef3",
+                        "download_size": 356300,
+                        "download_url": "https://github.com/4ms/4ms-kicad-lib/releases/download/1.0.1/4ms-kicad-lib-PCM-1.0.1.zip",
+                        "install_size": 2060685,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.1"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "2.1",
+            "install_timestamp": 1655888044,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "dawid_cislo@o2.pl"
+                    },
+                    "name": "Dawid Cisło"
+                },
+                "description": "Symbol and Footprint library focused on improving schematic and PCB readability and aesthetics, mainly intended for hobbyist use",
+                "description_full": "Current version: 2.1\n\nYou need to manually update the library tables in the Library Manager if you are installing AKL for the first time. No need to change library tables if you are updating from AKL V2.0. Refer to the links below for documentation and installation instructions.\n\nAKL started as a modification of the KiCAD library, where select footprints received new silkscreen markings helpful during hand-assembly. The list of footprints that have been modified and added has been greatly expanded, along with brand new footprints and footprint libraries. Double-layer silkscreen variants have been added where symbols have additional information on the bottom silkscreen layer for easier troubleshooting.\nAlternate KiCAD Library now contains massive symbol library (over 20 000 symbols as of version 2) with Diodes, Transistors, SCRs and Optocouplers. Each symbol is a separate orderable part number (example 1N4001, 1N4002, 1N4003 etc.), each has pre-assigned footprint and a datasheet link.",
+                "identifier": "com.github.dawidcislo.alternate-kicad-library",
+                "license": "CC-BY-SA",
+                "name": "Alternate Kicad Library",
+                "resources": {
+                    "Github": "https://github.com/DawidCislo/Alternate-KiCad-Library",
+                    "KiCad forum": "https://forum.kicad.info/t/alternate-kicad-library-2-0/32096"
+                },
+                "tags": [
+                    "footprints",
+                    "symbols"
+                ],
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "dc07a18ece7a8df203229999b13efe2f0f8e15abf1b07ea507deefe760d5de8b",
+                        "download_size": 15031216,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/releases/download/v2.1/com_github_alternate_kicad_library.zip",
+                        "install_size": 67073607,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.1"
+                    },
+                    {
+                        "download_sha256": "9263e7d394912f06baa1d33180e59bf10a75086ad683abf31d65581c8f2f16e2",
+                        "download_size": 10872186,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/raw/main/PCM_Releases/2.0/com_github_alternate_kicad_library.zip",
+                        "install_size": 59137804,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.0"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.1",
+            "install_timestamp": 1655894545,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://github.com/DX-MON"
+                    },
+                    "name": "Rachel Mant"
+                },
+                "description": "Eagle CAD inspired color theme",
+                "description_full": "Eagle CAD inspired color theme",
+                "identifier": "com.github.pointhi.kicad-color-schemes.eagle-dark",
+                "license": "CC0-1.0",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://github.com/pointhi/kicad-color-schemes/"
+                    },
+                    "name": "Thomas Pointhuber"
+                },
+                "name": "Eagle Dark Theme",
+                "resources": {
+                    "Github": "https://github.com/pointhi/kicad-color-schemes"
+                },
+                "type": "colortheme",
+                "versions": [
+                    {
+                        "download_sha256": "d862b897c8981c17cfc2f77839c82db25bdf8a9a25561e4b38c5a00bbee29ed1",
+                        "download_size": 6429,
+                        "download_url": "https://github.com/pointhi/kicad-color-schemes/releases/download/2021-12-05/com.github.pointhi.kicad-color-schemes.eagle-dark_v1.1_pcm.zip",
+                        "install_size": 10196,
+                        "kicad_version": "5.99",
+                        "status": "stable",
+                        "version": "1.1"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0.5",
+            "install_timestamp": 1655888044,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "description": "Automation for KiCAD",
+                "description_full": "KiKit is a Python library, KiCAD plugin and a CLI tool to automate several tasks in a standard KiCAD workflow like:\n• panelization of both, regular and oddly shaped, boards\n• automated exporting manufacturing data based on manufacturer presets\n• multi-board project in KiCAD\n• building board presentation pages\n• making 3D-printed solder stencils\n• and more",
+                "identifier": "com.github.yaqwsx.kikit",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "name": "KiKit",
+                "resources": {
+                    "homepage": "https://github.com/yaqwsx/KiKit"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "3771012da59ffa680f663695b5d95adb33143c0d2e9b6977ffaaee35667eb1f5",
+                        "download_size": 9545,
+                        "download_url": "https://github.com/yaqwsx/KiKit/releases/download/v1.0.5/pcm-kikit.zip",
+                        "install_size": 10583,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.5"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0.5",
+            "install_timestamp": 1655888039,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "description": "A footprint and schematic library for KiKit annotations.",
+                "description_full": "KiKit uses these symbols a footprints to annotate your boards (e.g., to place a tab in a panel).",
+                "identifier": "com.github.yaqwsx.kikit-library",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "name": "KiKit Library",
+                "resources": {
+                    "homepage": "https://github.com/yaqwsx/KiKit"
+                },
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "a7212bedabf5a7e74e30cd2f23468e10d909b11468e1b214479ce6da92969c4e",
+                        "download_size": 11225,
+                        "download_url": "https://github.com/yaqwsx/KiKit/releases/download/v1.0.5/pcm-kikit-lib.zip",
+                        "install_size": 14939,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.5"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
